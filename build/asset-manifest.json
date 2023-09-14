@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Xindref.github.io/space-travel-scratch/static/css/main.d76765c9.css",
-    "main.js": "/Xindref.github.io/space-travel-scratch/static/js/main.c26936ad.js",
-    "static/media/starryBackground.gif": "/Xindref.github.io/space-travel-scratch/static/media/starryBackground.242f614150679f8e9d4e.gif",
-    "static/media/Earth.png": "/Xindref.github.io/space-travel-scratch/static/media/Earth.71a5125e1d735482650c.png",
-    "static/media/Mercury.png": "/Xindref.github.io/space-travel-scratch/static/media/Mercury.3b011373e4f4315cb09a.png",
-    "static/media/Neptune.png": "/Xindref.github.io/space-travel-scratch/static/media/Neptune.806047576e8787332bf4.png",
-    "static/media/Jupiter.png": "/Xindref.github.io/space-travel-scratch/static/media/Jupiter.71734578d0bc5ae61721.png",
-    "static/media/Venus.png": "/Xindref.github.io/space-travel-scratch/static/media/Venus.012f4e3e9601c793733a.png",
-    "static/media/Mars.png": "/Xindref.github.io/space-travel-scratch/static/media/Mars.28596b9230bbecdc6db2.png",
-    "static/media/loading.gif": "/Xindref.github.io/space-travel-scratch/static/media/loading.103e375040962eb49beb.gif",
-    "static/media/Saturn.png": "/Xindref.github.io/space-travel-scratch/static/media/Saturn.aefcad026f2e764755c2.png",
-    "static/media/Uranus.png": "/Xindref.github.io/space-travel-scratch/static/media/Uranus.f82508757b0cdaad16ac.png",
-    "static/media/planet-earth.png": "/Xindref.github.io/space-travel-scratch/static/media/planet-earth.d60a30408d084c9265be.png",
-    "static/media/planet.png": "/Xindref.github.io/space-travel-scratch/static/media/planet.b1f69fbfada76b0df108.png",
-    "static/media/astronaut.png": "/Xindref.github.io/space-travel-scratch/static/media/astronaut.5b7c4d4a0f1988dbd695.png",
-    "static/media/rocket.png": "/Xindref.github.io/space-travel-scratch/static/media/rocket.b58a9096fceb35409309.png",
-    "static/media/wrench.png": "/Xindref.github.io/space-travel-scratch/static/media/wrench.a76ec8b8c244828a85e8.png",
-    "index.html": "/Xindref.github.io/space-travel-scratch/index.html",
-    "main.d76765c9.css.map": "/Xindref.github.io/space-travel-scratch/static/css/main.d76765c9.css.map",
-    "main.c26936ad.js.map": "/Xindref.github.io/space-travel-scratch/static/js/main.c26936ad.js.map"
+    "main.css": "/xindref.github.io/space-travel-scratch/static/css/main.8047fcf6.css",
+    "main.js": "/xindref.github.io/space-travel-scratch/static/js/main.dd13fe81.js",
+    "static/media/starryBackground.gif": "/xindref.github.io/space-travel-scratch/static/media/starryBackground.242f614150679f8e9d4e.gif",
+    "static/media/Earth.png": "/xindref.github.io/space-travel-scratch/static/media/Earth.71a5125e1d735482650c.png",
+    "static/media/Mercury.png": "/xindref.github.io/space-travel-scratch/static/media/Mercury.3b011373e4f4315cb09a.png",
+    "static/media/Neptune.png": "/xindref.github.io/space-travel-scratch/static/media/Neptune.806047576e8787332bf4.png",
+    "static/media/Jupiter.png": "/xindref.github.io/space-travel-scratch/static/media/Jupiter.71734578d0bc5ae61721.png",
+    "static/media/Venus.png": "/xindref.github.io/space-travel-scratch/static/media/Venus.012f4e3e9601c793733a.png",
+    "static/media/Mars.png": "/xindref.github.io/space-travel-scratch/static/media/Mars.28596b9230bbecdc6db2.png",
+    "static/media/loading.gif": "/xindref.github.io/space-travel-scratch/static/media/loading.103e375040962eb49beb.gif",
+    "static/media/Saturn.png": "/xindref.github.io/space-travel-scratch/static/media/Saturn.aefcad026f2e764755c2.png",
+    "static/media/Uranus.png": "/xindref.github.io/space-travel-scratch/static/media/Uranus.f82508757b0cdaad16ac.png",
+    "static/media/planet-earth.png": "/xindref.github.io/space-travel-scratch/static/media/planet-earth.d60a30408d084c9265be.png",
+    "static/media/planet.png": "/xindref.github.io/space-travel-scratch/static/media/planet.b1f69fbfada76b0df108.png",
+    "static/media/astronaut.png": "/xindref.github.io/space-travel-scratch/static/media/astronaut.5b7c4d4a0f1988dbd695.png",
+    "static/media/rocket.png": "/xindref.github.io/space-travel-scratch/static/media/rocket.b58a9096fceb35409309.png",
+    "static/media/wrench.png": "/xindref.github.io/space-travel-scratch/static/media/wrench.a76ec8b8c244828a85e8.png",
+    "index.html": "/xindref.github.io/space-travel-scratch/index.html",
+    "main.8047fcf6.css.map": "/xindref.github.io/space-travel-scratch/static/css/main.8047fcf6.css.map",
+    "main.dd13fe81.js.map": "/xindref.github.io/space-travel-scratch/static/js/main.dd13fe81.js.map"
   },
   "entrypoints": [
-    "static/css/main.d76765c9.css",
-    "static/js/main.c26936ad.js"
+    "static/css/main.8047fcf6.css",
+    "static/js/main.dd13fe81.js"
   ]
 }
