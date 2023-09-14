@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/xindref.github.io/space-travel-scratch/static/css/main.8047fcf6.css",
-    "main.js": "/xindref.github.io/space-travel-scratch/static/js/main.136238a0.js",
-    "static/media/starryBackground.gif": "/xindref.github.io/space-travel-scratch/static/media/starryBackground.242f614150679f8e9d4e.gif",
-    "static/media/Earth.png": "/xindref.github.io/space-travel-scratch/static/media/Earth.71a5125e1d735482650c.png",
-    "static/media/Mercury.png": "/xindref.github.io/space-travel-scratch/static/media/Mercury.3b011373e4f4315cb09a.png",
-    "static/media/Neptune.png": "/xindref.github.io/space-travel-scratch/static/media/Neptune.806047576e8787332bf4.png",
-    "static/media/Jupiter.png": "/xindref.github.io/space-travel-scratch/static/media/Jupiter.71734578d0bc5ae61721.png",
-    "static/media/Venus.png": "/xindref.github.io/space-travel-scratch/static/media/Venus.012f4e3e9601c793733a.png",
-    "static/media/Mars.png": "/xindref.github.io/space-travel-scratch/static/media/Mars.28596b9230bbecdc6db2.png",
-    "static/media/loading.gif": "/xindref.github.io/space-travel-scratch/static/media/loading.103e375040962eb49beb.gif",
-    "static/media/Saturn.png": "/xindref.github.io/space-travel-scratch/static/media/Saturn.aefcad026f2e764755c2.png",
-    "static/media/Uranus.png": "/xindref.github.io/space-travel-scratch/static/media/Uranus.f82508757b0cdaad16ac.png",
-    "static/media/planet-earth.png": "/xindref.github.io/space-travel-scratch/static/media/planet-earth.d60a30408d084c9265be.png",
-    "static/media/planet.png": "/xindref.github.io/space-travel-scratch/static/media/planet.b1f69fbfada76b0df108.png",
-    "static/media/astronaut.png": "/xindref.github.io/space-travel-scratch/static/media/astronaut.5b7c4d4a0f1988dbd695.png",
-    "static/media/rocket.png": "/xindref.github.io/space-travel-scratch/static/media/rocket.b58a9096fceb35409309.png",
-    "static/media/wrench.png": "/xindref.github.io/space-travel-scratch/static/media/wrench.a76ec8b8c244828a85e8.png",
-    "index.html": "/xindref.github.io/space-travel-scratch/index.html",
-    "main.8047fcf6.css.map": "/xindref.github.io/space-travel-scratch/static/css/main.8047fcf6.css.map",
-    "main.136238a0.js.map": "/xindref.github.io/space-travel-scratch/static/js/main.136238a0.js.map"
+    "main.css": "/space-travel-scratch/static/css/main.dbd75ab8.css",
+    "main.js": "/space-travel-scratch/static/js/main.f46e45dc.js",
+    "static/media/starryBackground.gif": "/space-travel-scratch/static/media/starryBackground.242f614150679f8e9d4e.gif",
+    "static/media/Earth.png": "/space-travel-scratch/static/media/Earth.71a5125e1d735482650c.png",
+    "static/media/Mercury.png": "/space-travel-scratch/static/media/Mercury.3b011373e4f4315cb09a.png",
+    "static/media/Neptune.png": "/space-travel-scratch/static/media/Neptune.806047576e8787332bf4.png",
+    "static/media/Jupiter.png": "/space-travel-scratch/static/media/Jupiter.71734578d0bc5ae61721.png",
+    "static/media/Venus.png": "/space-travel-scratch/static/media/Venus.012f4e3e9601c793733a.png",
+    "static/media/Mars.png": "/space-travel-scratch/static/media/Mars.28596b9230bbecdc6db2.png",
+    "static/media/loading.gif": "/space-travel-scratch/static/media/loading.103e375040962eb49beb.gif",
+    "static/media/Saturn.png": "/space-travel-scratch/static/media/Saturn.aefcad026f2e764755c2.png",
+    "static/media/Uranus.png": "/space-travel-scratch/static/media/Uranus.f82508757b0cdaad16ac.png",
+    "static/media/planet-earth.png": "/space-travel-scratch/static/media/planet-earth.d60a30408d084c9265be.png",
+    "static/media/planet.png": "/space-travel-scratch/static/media/planet.b1f69fbfada76b0df108.png",
+    "static/media/astronaut.png": "/space-travel-scratch/static/media/astronaut.5b7c4d4a0f1988dbd695.png",
+    "static/media/rocket.png": "/space-travel-scratch/static/media/rocket.b58a9096fceb35409309.png",
+    "static/media/wrench.png": "/space-travel-scratch/static/media/wrench.a76ec8b8c244828a85e8.png",
+    "index.html": "/space-travel-scratch/index.html",
+    "main.dbd75ab8.css.map": "/space-travel-scratch/static/css/main.dbd75ab8.css.map",
+    "main.f46e45dc.js.map": "/space-travel-scratch/static/js/main.f46e45dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8047fcf6.css",
-    "static/js/main.136238a0.js"
+    "static/css/main.dbd75ab8.css",
+    "static/js/main.f46e45dc.js"
   ]
 }
