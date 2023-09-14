@@ -1,0 +1,121 @@
+.planet-container {
+    position: relative;
+    width: 100%;
+    height: 820px;
+}
+
+.planet {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+}
+
+.planet:nth-child(1) {
+    transform: translate(200px);
+}
+
+.planet:nth-child(2) {
+    transform: translate(0px, -110px);
+}
+
+.planet:nth-child(3) {
+    transform: translate(-100px, -110px);
+}
+
+.planet:nth-child(4) {
+    transform: translate(0px, -110px);
+}
+
+.planet:nth-child(5) {
+    transform: translate(200px, -200px);
+}
+
+.planet:nth-child(6) {
+    transform: translate(400px, -510px);
+}
+
+.planet:nth-child(7) {
+    transform: translate(500px, -910px);
+}
+
+.planet:nth-child(8) {
+    transform: translate(400px, -1310px);
+}
+
+.planet img {
+    width: 100px;
+    height: 100px;
+}
+
+.planet-image:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.planet-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+    text-align: center;
+    gap: 5px;
+}
+
+.planet-name {
+    font-size: 1.8rem;
+    text-shadow: 1px 2px black;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.population-info {
+    font-size: 1.2rem;
+    pointer-events: none;
+    text-shadow: 1px 2px black;
+}
+
+.Mercury-shadow,
+.Venus-shadow,
+.Earth-shadow,
+.Mars-shadow,
+.Jupiter-shadow,
+.Saturn-shadow,
+.Uranus-shadow,
+.Neptune-shadow {
+    position: absolute;
+    z-index: -1;
+    scale: .95;
+    pointer-events: none;
+}
+
+.planet-spacecrafts-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    bottom: 15px;
+}
+
+.planet-spacecraft {
+    position: relative;
+    width: 60px;
+}
+
+.planet-spacecraft img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(45, 171, 180, 0.788);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.planet-spacecrafts-container img:hover {
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgba(37, 207, 88, 0.863);
+}

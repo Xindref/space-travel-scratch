@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'orbitron', sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  color: #ffffff;
+  background-color: #000000;
+}

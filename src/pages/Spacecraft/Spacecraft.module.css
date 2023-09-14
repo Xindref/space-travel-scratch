@@ -1,0 +1,87 @@
+.spacecraft {
+    background-color: rgba(94, 128, 138, 0.623);
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid grey;
+    width: 100%;
+}
+
+.spacecraft-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacecraft-image {
+    width: 200px;
+    border: 4px solid greenyellow;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(0, 255, 255, 0.507);
+    box-shadow: 0px 5px rgba(172, 255, 47, 0.35);
+}
+
+.spacecraft-base-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    border: 4px solid greenyellow;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(0, 255, 255, 0.507);
+    box-shadow: 0px 5px rgba(172, 255, 47, 0.349);
+}
+
+.spacecraft-base-info p {
+    background-color: rgba(16, 46, 85, 0.507);
+    padding: 5px;
+    border: 2px solid rgb(29, 137, 156);
+    text-decoration: underline;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 2px rgb(159, 228, 55);
+}
+
+.spacecraft-base-info div {
+    align-self: center;
+    width: calc(100% + 30px);
+    height: 30px;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    background-color: rgba(15, 80, 58, 0.63);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 1px 2px black;
+    border-bottom: 2px solid black;
+}
+
+.spacecraft-info {
+    font-size: 1.75rem;
+    margin-top: 40px;
+    border: 4px solid greenyellow;
+    border-radius: 15px;
+}
+
+.spacecraft-info-header {
+    font-size: 2.5rem;
+    background-color: rgba(25, 121, 105, 0.623);
+    padding: 5px;
+    margin-bottom: -2px;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.spacecraft-info-text {
+    margin-top: 2px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgba(17, 221, 221, 0.3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 8px rgba(172, 255, 47, 0.342);
+    text-shadow: 1px 2px black;
+}
