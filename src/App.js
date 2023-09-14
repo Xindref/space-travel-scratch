@@ -11,11 +11,12 @@ import NavBar from "./components/NavBar/NavBar";
 function App() {
 
   const { isLoading } = useContext(LoadingContext);
+  const basename = process.env.REACT_APP_BASENAME || "/";
 
   return (
     <>
       {
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
           <div className={styles["app"]}>
             <header className={styles["app__header"]}>
               <NavBar />
