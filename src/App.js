@@ -11,7 +11,7 @@ import NavBar from "./components/NavBar/NavBar";
 function App() {
 
   const { isLoading } = useContext(LoadingContext);
-  const basename = process.env.REACT_APP_BASENAME || "/";
+  const basename = process.env.PUBLIC_URL || "/";
 
   return (
     <>
