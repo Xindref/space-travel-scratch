@@ -1,54 +1,74 @@
 .planet-container {
     position: relative;
     width: 100%;
-    height: 820px;
+    height: 620px;
+    display: flex;
 }
 
 .planet {
-    position: relative;
+    position: absolute;
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 20px;
+}
+
+.positioning-circle {
+    position: absolute;
+    display: inline;
+    border: 5px solid greenyellow;
+    width: 540px;
+    height: 540px;
+    left: 50px;
+    border-radius: 50%;
+    top: 90px;
 }
 
 .planet:nth-child(1) {
-    transform: translate(200px);
+    top: 0px;
+    left: calc(50% - 100px);
 }
 
 .planet:nth-child(2) {
-    transform: translate(0px, -110px);
-}
-
-.planet:nth-child(3) {
-    transform: translate(-100px, -110px);
-}
-
-.planet:nth-child(4) {
-    transform: translate(0px, -110px);
-}
-
-.planet:nth-child(5) {
-    transform: translate(200px, -200px);
-}
-
-.planet:nth-child(6) {
-    transform: translate(400px, -510px);
-}
-
-.planet:nth-child(7) {
-    transform: translate(500px, -910px);
+    top: 85px;
+    left: 25px;
 }
 
 .planet:nth-child(8) {
-    transform: translate(400px, -1310px);
+    top: 85px;
+    right: 25px;
+}
+
+.planet:nth-child(3) {
+    top: 250px;
+    left: -45px;
+}
+
+.planet:nth-child(7) {
+    top: 250px;
+    right: -45px;
+}
+
+.planet:nth-child(4) {
+    top: 440px;
+    left: 25px;
+}
+
+.planet:nth-child(6) {
+    top: 440px;
+    right: 25px;
+}
+
+.planet:nth-child(5) {
+    top: 540px;
+    left: calc(50% - 100px);
 }
 
 .planet img {
     width: 100px;
     height: 100px;
+    z-index: 1;
 }
 
 .planet-image:hover {
@@ -60,9 +80,16 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 2px;
+    top: 40px;
+    width: 150px;
     text-align: center;
     gap: 5px;
+    z-index: 5;
+    background-color: rgba(45, 131, 153, 0.308);
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(0, 255, 234);
+    pointer-events: none;
 }
 
 .planet-name {
@@ -87,8 +114,7 @@
 .Uranus-shadow,
 .Neptune-shadow {
     position: absolute;
-    z-index: -1;
-    scale: .95;
+    z-index: 0;
     pointer-events: none;
 }
 
@@ -97,7 +123,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    bottom: 15px;
+    bottom: 10px;
 }
 
 .planet-spacecraft {
