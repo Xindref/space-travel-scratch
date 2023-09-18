@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-travel-scratch/static/css/main.dbd75ab8.css",
-    "main.js": "/space-travel-scratch/static/js/main.f46e45dc.js",
+    "main.css": "/space-travel-scratch/static/css/main.54e29e04.css",
+    "main.js": "/space-travel-scratch/static/js/main.410ffc29.js",
     "static/media/starryBackground.gif": "/space-travel-scratch/static/media/starryBackground.242f614150679f8e9d4e.gif",
     "static/media/Earth.png": "/space-travel-scratch/static/media/Earth.71a5125e1d735482650c.png",
     "static/media/Mercury.png": "/space-travel-scratch/static/media/Mercury.3b011373e4f4315cb09a.png",
@@ -18,11 +18,11 @@
     "static/media/rocket.png": "/space-travel-scratch/static/media/rocket.b58a9096fceb35409309.png",
     "static/media/wrench.png": "/space-travel-scratch/static/media/wrench.a76ec8b8c244828a85e8.png",
     "index.html": "/space-travel-scratch/index.html",
-    "main.dbd75ab8.css.map": "/space-travel-scratch/static/css/main.dbd75ab8.css.map",
-    "main.f46e45dc.js.map": "/space-travel-scratch/static/js/main.f46e45dc.js.map"
+    "main.54e29e04.css.map": "/space-travel-scratch/static/css/main.54e29e04.css.map",
+    "main.410ffc29.js.map": "/space-travel-scratch/static/js/main.410ffc29.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbd75ab8.css",
-    "static/js/main.f46e45dc.js"
+    "static/css/main.54e29e04.css",
+    "static/js/main.410ffc29.js"
   ]
 }

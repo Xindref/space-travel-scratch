@@ -8,7 +8,7 @@ import SpaceTravelApi from "../../services/SpaceTravelApi";
 const Planets = () => {
     const [planetsWithSpacecrafts, setPlanetsWithSpacecrafts] = useState([]);
     const { isLoading, enableLoading, disableLoading } = useContext(LoadingContext);
-    const [selectedPlanetId, setSelectedPlanetId] = useState();
+    const [selectedPlanetId, setSelectedPlanetId] = useState(-1);
     const [selectedSpacecraftId, setSelectedSpacecraftId] = useState();
 
     const [hoveredPlanet, setHoveredPlanet] = useState("");
@@ -46,7 +46,6 @@ const Planets = () => {
     const handlePlanetClick = (event, id, name) => {
         event.preventDefault()
         setHoveredPlanet(name);
-        console.log(id);
         setSelectedPlanetId(id)
     }
 
@@ -54,12 +53,11 @@ const Planets = () => {
         event.preventDefault();
         if (!isLoading && Number.isInteger(selectedPlanetId) && selectedPlanetId !== planetId) {
             setSelectedSpacecraftId(spacecraftId);
-            console.log(spacecraftId);
             enableLoading();
             const { isError } = await SpaceTravelApi.sendSpacecraftToPlanet({ spacecraftId, targetPlanetId: selectedPlanetId })
             if (!isError) {
                 await getPlanetsWithSpacecrafts();
-                setSelectedPlanetId(null);
+                setSelectedPlanetId(-1);
                 setSelectedSpacecraftId(null);
                 setHoveredPlanet("");
             }
@@ -68,13 +66,13 @@ const Planets = () => {
     }
 
     const handleMouseEnterPlanet = (name) => {
-        if (!selectedPlanetId) {
+        if (selectedPlanetId === -1) {
             setHoveredPlanet(name);
         }
     }
 
-    const handleMouseLeavePlanet = () => {
-        if (!selectedPlanetId) {
+    const handleMouseLeavePlanet = (id) => {
+        if (selectedPlanetId === -1) {
             setHoveredPlanet("");
         }
     }
@@ -92,7 +90,7 @@ const Planets = () => {
                         src={planet.pictureUrl}
                         className={styles["planet-image"]}
                         onMouseEnter={() => handleMouseEnterPlanet(planet.name)}
-                        onMouseLeave={handleMouseLeavePlanet}
+                        onMouseLeave={() => handleMouseLeavePlanet(planet.id)}
                         onClick={(event) => handlePlanetClick(event, planet.id, planet.name)}
                     />
                     <div className={styles["planet-spacecrafts-container"]}>
