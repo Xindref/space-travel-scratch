@@ -1,11 +1,10 @@
 .loading-screen {
-    height: 100vh;
+    height: 100%;
     position: fixed;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     top: 0px;
     z-index: 99;
     background-image: url("../../images/starryBackground.gif");

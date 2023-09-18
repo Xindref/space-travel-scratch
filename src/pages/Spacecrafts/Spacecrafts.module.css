@@ -119,3 +119,14 @@
     border: 3px solid white;
     pointer-events: none;
 }
+
+@media only screen and (max-width: 730px) {
+    .spacecraft {
+        scale: .95;
+    }
+
+    .build-button {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}

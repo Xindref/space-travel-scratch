@@ -5,6 +5,9 @@
     justify-content: space-evenly;
     flex-grow: 1;
     font-family: 'orbitron', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .page-title {

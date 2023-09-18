@@ -28,3 +28,21 @@
 .app__main {
   min-height: calc(100vh - 24rem);
 }
+
+@media only screen and (max-width: 730px) {
+
+  .app__header,
+  .app__footer {
+    margin: 0px;
+  }
+
+  .app__footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    scale: .9;
+  }
+
+  .app__main {
+    min-height: calc(100vh - 14rem);
+  }
+}

@@ -146,19 +146,19 @@
     background-color: rgba(37, 207, 88, 0.863);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
     .planet-container {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
 
     .planet:nth-child(3) {
         top: 270px;
-        left: 35px;
+        left: -10px;
     }
 
     .planet:nth-child(7) {
         top: 270px;
-        right: 35px;
     }
 
     .planet:nth-child(1) {
@@ -167,6 +167,26 @@
 
     .planet:nth-child(5) {
         top: 600px;
+    }
+
+    .planet:nth-child(2) {
+        top: 85px;
+        left: -10px;
+    }
+
+    .planet:nth-child(8) {
+        top: 85px;
+        right: -10px;
+    }
+
+    .planet:nth-child(4) {
+        top: 440px;
+        left: -10px;
+    }
+
+    .planet:nth-child(6) {
+        top: 440px;
+        right: -10px;
     }
 
 }

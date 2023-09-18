@@ -58,3 +58,14 @@
     width: 20px;
     margin-right: 5px;
 }
+
+@media only screen and (max-width: 730px) {
+    .nav-img {
+        display: none;
+    }
+
+    .nav-list {
+        border-bottom: 2px solid cyan;
+        border-radius: 0px;
+    }
+}
